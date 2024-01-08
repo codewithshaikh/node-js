@@ -94,10 +94,10 @@ const prompt=require("prompt-sync")({sigint:true});
 
     // data fatching second page
 
-    const second = require('./second')
+    // const second = require('./second')
     // console.log(second)
     // console.log(second.a)
-    console.log(second.myfun())
+    // console.log(second.myfun())
     
 
 
