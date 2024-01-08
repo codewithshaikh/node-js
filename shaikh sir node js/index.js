@@ -29,7 +29,7 @@
 // console.log(`Welcome to i-tech ${name}`)
 
 
-const prompt=require("prompt-sync")({sigint:true});
+// const prompt=require("prompt-sync")({sigint:true});
 // let a=parseInt(prompt("Enter the first value"))
 // let b=parseInt(prompt("Enter the Second value"))
 // let c=a+b
