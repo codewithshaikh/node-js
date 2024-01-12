@@ -98,6 +98,43 @@
     // console.log(second)
     // console.log(second.a)
     // console.log(second.myfun())
+
+
+// core Module in node js
+// their are 2 type of core Module 1)global modules 2)Non-global modules
+// Module like a library function 
+
+// console.log("welcome to shaikh")  ///this file is not import global modules 
+ 
+// create file
+// var fs = require('fs');  // this is a import and import file Non-global modules
+// fs.writeFileSync("basic.txt","My name is Shaikh")  //create and write files
+
+// console.log(__dirname); location  
+// console.log(__filename); filename
+
+// Make Basic Server Output On Browser arrow function 
+// const http = require('http');
+
+// http.createServer((req,resp)=>{
+//     resp.write("<h1>My name is Shaikh</h1>");
+//     resp.end();
+// }).listen(4800)
+
+
+
+
+// Simple function as parameter in Node
+// const http = require('http');
+
+// function data12(req,res)
+// {
+//     res.write("<h1>My name is Khan</h1>"); 
+//     res.end();
+// }
+
+// http.createServer(data12).listen(4800);
+
     
 
 
