@@ -135,6 +135,48 @@
 
 // http.createServer(data12).listen(4800);
 
+
+// console.log(files and Static API")
+
+// Simple Api  in google run (http://localhost:4000)
+// const http =require('http');
+
+// http.createServer((req,resp)=>{
+//     resp.writeHead(200,{'Content-Type':'application\json'});
+//     resp.write(JSON.stringify({name:'shaikh sir',email:'shaikh@gmail.com'}));
+//     resp.end();
+// }).listen(5000);
+
+
+// next file to save api data records create file and connect file name
+
+// const http =require('http');
+
+// const data = require('./api_record')
+
+// http.createServer((req,resp)=>{
+//     resp.writeHead(200,{'Content-Type':'application\json'});
+//     resp.write(JSON.stringify(data));
+//     resp.end();
+// }).listen(4000);
+
+
+// File  CRRD opretion  (node index.js  this is a file name-:first.txt this is a text in file'this is my first page')
+// const fs=require('fs');
+// const input = process.argv;
+// fs.writeFileSync(input[2],input[3])
+
+
+// const fs=require('fs');
+// const input = process.argv;
+// if(input[2]=='add'){            //  node index.js add filename.txt 'some text in file'
+//     fs.writeFileSync(input[3],input[4])
+// }else if(input[2]=='remove'){   //  node index.js remove filename.txt
+//     fs.unlinkSync(input[3])
+// }else{
+//     console.log("invalid output")
+// }
+
     
 
 
