@@ -177,6 +177,32 @@
 //     console.log("invalid output")
 // }
 
+
+
+// CRUD
+
+// const fs= require('fs');
+// const path = require('path');
+// const dirPath = path.join(__dirname,'CURD');
+// const filePath= `${dirPath}/newfilename.txt`;
+
+// fs.writeFileSync(filePath,"My name is Shaikh")  //create and write files
+
+// fs.readFile(filePath,'utf8',(err,item)=>{          //read file
+//     console.log(item)               
+// })
+
+// fs.appendFile(filePath,' and i am a software faculty',(err)=>{
+//     if(!err) console.log("file is updated")                     //update files
+// })
+
+// fs.rename(filePath,`${dirPath}/filename.txt`,(err)=>{
+//     if(!err) console.log("file is updated")                     //rename file
+// })
+
+
+// fs.unlinkSync(`${dirPath}/filename.txt`)                //delete files 
+
     
 
 
