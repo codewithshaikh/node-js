@@ -203,6 +203,57 @@
 
 // fs.unlinkSync(`${dirPath}/filename.txt`)                //delete files 
 
+
+// Asynchronous and Synchronous
+
+// console.log('first program....');
+// console.log('Second program....');   //like wating for prosses to some second(first program is runing and  Second program taking some time nodejs direct jump to Third program than last program runing is second program)
+// console.log('Third program....');
+
+
+// console.log('first program....');
+
+// setTimeout(()=>{
+//     console.log('Second program....');      //Asynchronous program
+// },2000)
+ 
+// console.log('Third program....');
+
+
+
+// dropback Asynchronous
+
+// a=20
+// b=0
+
+// setTimeout(()=>{
+//     b=50
+// },2000)
+
+// console.log(a+b)
+
+
+// Handle Asynchronous
+
+// a=20
+// b=0
+
+// let watingrecord = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         // b=50
+//         resolve(30)
+//     },2000)
+// })
+
+// watingrecord.then((data)=>{
+//     b=data
+//     console.log(a+b)
+// })
+
+
+
+
+
     
 
 
